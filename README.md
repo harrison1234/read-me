@@ -1,3 +1,3 @@
 # RAILS
 
-this is vews - video news
+this is vews - video newss
