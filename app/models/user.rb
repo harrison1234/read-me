@@ -7,7 +7,7 @@ validates :password, :presence => true,
 					 :confirmation => true,
 					 :length => {:within => 6..40},
                      :on => :create,
-                     :format => {:with => /\A.*(?=.{10,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\@\#\$\%\^\&\+\=]).*\Z/ }
+                     :format => {:with => /\A.*(?=.{10,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*\Z/ }
 
 
 
