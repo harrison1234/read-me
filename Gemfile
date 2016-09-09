@@ -28,6 +28,8 @@ gem 'bootstrap-sass'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'devise', '~> 4.2'
 
+gem 'paperclip', '~> 4.0'
+
 
 
 # Use Unicorn as the app server
